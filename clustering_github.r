@@ -39,7 +39,7 @@ z <- as.numeric(unlist(zdata))
 #################Plot Diameter histogram
 
 pdf(sprintf('Data/%s/%s/histogram_diameter_%s.pdf', instance, newfolder, instance))
-hist(z, breaks = 20, col = "darkblue", main= NULL)
+hist(z, breaks = 20, col = "darkblue", main= NULL, xlab = "Diameter (um)")
 dev.off()
 
 
