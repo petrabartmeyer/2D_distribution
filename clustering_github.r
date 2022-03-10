@@ -9,7 +9,7 @@ library(latex2exp)
 min_int = 4                                               # maximum diameter for a small fiber
 med_int = 10                                              # maximum diameter for a medium fiber
 lim_size <- 10                                            # number of neighbors to be considered in the d_ik analysis
-path <- "~/Dropbox/MountSinai/SpatialDistribution/."      # path for the folder with the dataset
+path <- "~/Path/to/the/folder/."  			  # path for the folder with the dataset
 
 setwd(path)
 v <- list("Monkey_1")                                     # name of the instance to be analyzed
